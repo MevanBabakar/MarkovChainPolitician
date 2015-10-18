@@ -5,7 +5,7 @@ from TheyWorkForYouAPI import get_speeches
 
 print "Which politician would you like to search for?"
 sentence = get_speeches(raw_input())
-
+#sentence = get_speeches('Cameron')
 words = sentence.split()
 
 # 2. Be able to split this into a list of triples starting at each word in the text,  e.g. [("The", "quick", "brown"), ("quick", "brown", "fox"), ("brown", "fox", "jumped") ...]
